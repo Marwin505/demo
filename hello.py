@@ -1,5 +1,5 @@
 import streamlit as st
-from pyspark import SparkSession
+from pyspark.sql import SparkSession
 
 st.write(SparkSession)
 st.title("Hello, Venki! 🚀")
